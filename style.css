@@ -1,0 +1,105 @@
+/*全体のフォント設定*/
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+header {
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+
+/*メイン左側*/
+main_left {
+    float: left;
+    width: 69%;
+    padding-bottom: 20px;
+}
+
+main_left h2 {
+    border-left: 4px solid black;
+    border-bottom: 1.5px solid black;
+    padding-left: 10px;
+}
+
+main_left .contents {
+    border: 2px solid lightgray;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*入力場所の設定*/
+.entry_title {
+    border-left: 4px solid darkred;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*投稿ボタンの設定*/
+.submit {
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+
+}
+
+
+/*タイトルの設定*/
+main_left .contents h3 {
+    border-bottom: 1px solid lightgray;
+}
+
+.handlename {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+/*メイン右側*/
+main_right {
+    float: right;
+    width: 25%;
+}
+
+.right_title1, .right_title2, .right_title3 {
+    border-bottom: 2px dotted lightgray;
+}
+
+main_right ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+
+/*フッター*/
+footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+
+}
